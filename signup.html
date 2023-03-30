@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A brief description of your page's content.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://www.example.com/page">
+    <meta property="og:title" content="The title you want to appear on social media">
+    <meta property="og:description" content="A brief description of your page's content">
+    <meta property="og:image" content="https://www.example.com/image.jpg">
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "WebPage",
+            "name": "Page Title",
+            "description": "A brief description of your page's content",
+            "url": "https://www.example.com/page",
+            "image": "https://www.example.com/image.jpg"
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Sign Up</title>
+</head>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="logo" href="index.html">
+                <h2>LO<span>GO</span></h2>
+            </a>
+    </nav>
+
+    <div class="signup-form">
+        <div class="text-center">
+            <h2>Welcome. We exist to make entrepreneurism easier</h2>
+        </div>
+        <br>
+        <div>
+            <button class="btn btn-outline-primary sign"><span class="ms-3"><img class="image-fluid" src="Images/Icon.png"
+                        alt="google icon"></span>Signup With
+                Google</button>
+        </div>
+        <div class="text-center">
+            <p class="small">Or register with you email</p>
+        </div>
+
+        <form id="signup-form" method="POST" action="">
+            <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" placeholder="First Name     Last Name" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" placeholder="example@email.com" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="mb-3">
+                <label for="password">Password</label>
+                <input type="password" placeholder="*********" class="form-control" id="password" name="password" required>
+            </div>
+            <div class="mb-3">
+                <label for="confirm_password" class="form-label">Confirm Password</label>
+                <input type="password" placeholder="*********" class="form-control" id="confirm_password" name="confirm_password" required>
+            </div>
+            <div class="text-center">
+                <p class="small">I agree to be contacted by #CompanyName as per the <br> <a href="">Privacy Policy</a>
+                </p>
+            </div>
+
+            <button class="btn btn-outline-primary sign Up ">Sign In</button>
+
+            <div class="text-center">
+                <p class="small">Already have an account? <a href="login.html">Log In.</a></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"
+        integrity="sha512-YqN3Y76dnyg2zgoWDwCXXQ2ekKs6sXs1Z8b+MkLLT1mK/JaEJsm+dtwIj6UgP6UwuSBH+Cac/FSEUZq3alMqLw=="
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="js/signup.js"></script>
+</body>
+
+</html>
