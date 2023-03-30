@@ -1,0 +1,291 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Playfair Display', serif;
+}
+
+body,
+p {
+    color: #f7f7f7c7;
+    font: 400 1rem/1.625rem "Montserrat", sans-serif;
+    margin-top: 8px;
+}
+
+hr {
+    width: 50%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: rgba(240, 248, 255, 0.897);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 3.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-family: "Montserrat", sans-serif;
+}
+
+.p-large {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.p-small {
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+}
+
+a {
+    color: #a3bae0ce;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #5D5DFF;
+    text-decoration: none;
+    transform: scale(1.05);
+    transition: ease 1s;
+}
+
+.btn {
+    margin: 1em .5em;
+    border: 1px solid #5D5DFF;
+    color: #bed3f7;
+    padding: .3em 2em;
+}
+
+.btn:hover {
+    background-color: #5D5DFF;
+    border-radius: none;
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+
+hr {
+    width: 100%;
+}
+
+/* Form */
+.form-floating label {
+    margin-left: 0.5rem;
+    color: #72719b;
+}
+
+.form-floating>.form-control:focus~label,
+.form-floating>.form-control:not(:placeholder-shown)~label,
+.form-floating>.form-select~label {
+    transform: scale(0.85) translateY(-.75rem) translateX(.15rem);
+}
+
+.form-floating .form-control {
+    padding-left: 1.25rem;
+}
+
+.form-select {
+    height: calc(3.5rem + 2px);
+    padding-left: 1.25rem;
+    color: #72719b;
+}
+
+.form-floating textarea.form-control {
+    height: 100%;
+}
+
+.form-floating .form-control:hover,
+.form-select:hover {
+    border: 1px solid #a1a1a1;
+}
+
+.form-control-submit-button {
+    display: inline-block;
+    width: 100%;
+    height: 3.625rem;
+    border: 1px solid #153e52;
+    border-radius: 2px;
+    background-color: #153e52;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 0;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.form-control-submit-button:hover {
+    border: 1px solid #153e52;
+    background-color: transparent;
+    color: #153e52;
+}
+
+section {
+    margin: 4em 0em;
+}
+
+.row {
+    margin: 2em 0em;
+}
+
+
+/* Header */
+
+nav ul li a {
+    color: #ffffff;
+}
+
+h2 span {
+    color: #5D5DFF;
+}
+
+p span img {
+    color: #a1a1a1;
+}
+
+.testimonial img {
+    height: 80px;
+    width: 80px;
+    border-radius: 5px;
+}
+
+.testimonial .col-md-4 {
+    margin-top: 2em;
+}
+
+/* Login and Signup */
+
+.login-form,
+.signup-form {
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(32, 31, 31, 0.2);
+}
+
+button.sign {
+    padding: .7em 2em;
+    width: 100%;
+    background-color: rgba(209, 87, 87, 0.87);
+    color: #fff;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+}
+
+button.sign.Up {
+    background-color: #5D5DFF;
+}
+
+
+
+.subscribe .container {
+    box-shadow: 0 0 10px rgba(32, 31, 31, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #1b1b1b71;
+}
+
+.subscribe button {
+    margin: 2.2em 0 0 0;
+}
+
+.subscribe .email {
+    width: 40em;
+    margin-right: 1em;
+}
+
+.row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col h5 {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+/* Media queries for heroImage section */
+@media (max-width: 768px) {
+    .heroImage iframe {
+        width: 100%;
+        height: 250px;
+    }
+}
+
+/* Media queries for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+}
+
+/* Small screens */
+@media (max-width: 576px) {
+
+    footer p,
+    footer ul,
+    footer h5 {
+        text-align: center;
+    }
+}
+
+/* Medium screens */
+@media (min-width: 576px) and (max-width: 768px) {
+    footer .col-md-2 {
+        flex-basis: 33.33%;
+        max-width: 33.33%;
+    }
+}
