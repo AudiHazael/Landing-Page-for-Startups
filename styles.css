@@ -218,6 +218,10 @@ button.sign.Up {
 }
 
 
+.goals p i {
+    color: #a6a6fa;
+    font-size: 1.5em;
+}
 
 .subscribe .container {
     box-shadow: 0 0 10px rgba(32, 31, 31, 0.2);
@@ -231,7 +235,7 @@ button.sign.Up {
 }
 
 .subscribe .email {
-    width: 40em;
+    width: 30dvw;
     margin-right: 1em;
 }
 
@@ -247,10 +251,6 @@ button.sign.Up {
 .form-control {
     margin-right: 10px;
 }
-
-
-
-
 
 
 
@@ -274,7 +274,7 @@ footer a {
 
 /* Small screens */
 @media (max-width: 576px) {
-
+    footer h2,
     footer p,
     footer ul,
     footer h5 {

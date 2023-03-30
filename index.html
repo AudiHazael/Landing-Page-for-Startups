@@ -258,21 +258,25 @@
     <section class="subscribe">
         <div class="container">
             <div class="d-flex justify-content-between">
-                <div class="">
-                    <h3>Stay in the loop <span>
-                            <p>Join our newsletter to get top news before everyone else</p>
-                        </span></h3>
+                <div class="row">
+                    <div class="col">
+                        <h3>Stay in the loop <span>
+                                <p>Join our newsletter to get top news before everyone else</p>
+                            </span></h3>
+                    </div>
+                    <div class="col">
+                        <form id="subscription-form" class="d-flex" action="">
+                            <div class="email">
+                                <label for="input-email" class="form-label">Email</label>
+                                <input type="email" placeholder="Enter your favorite email" class="form-control"
+                                    id="input-email" name="email" required>
+                            </div>
+                            <div class="subscribe">
+                                <button type="button" class="btn btn-outline-primary">SUBSCRIBE</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <form id="subscription-form" class="d-flex" action="">
-                    <div class="email">
-                        <label for="input-email" class="form-label">Email</label>
-                        <input type="email" placeholder="Enter your favorite email" class="form-control"
-                            id="input-email" name="email" required>
-                    </div>
-                    <div class="subscribe">
-                        <button type="button" class="btn btn-outline-primary">SUBSCRIBE</button>
-                    </div>
-                </form>
             </div>
         </div>
     </section>
@@ -324,7 +328,7 @@
             </div>
         </div>
 
-        
+
 
     </footer>
 
