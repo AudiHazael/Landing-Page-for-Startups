@@ -90,7 +90,6 @@ a:hover {
 }
 
 .btn {
-    margin: 1em .5em;
     border: 1px solid #5D5DFF;
     color: #bed3f7;
     padding: .3em 2em;
@@ -170,7 +169,8 @@ section {
 
 /* Header */
 
-nav ul li a {
+nav ul li a button {
+    margin: 1em .25em;
     color: #ffffff;
 }
 
@@ -180,6 +180,27 @@ h2 span {
 
 p span img {
     color: #a1a1a1;
+}
+
+.socials {
+    position: fixed;
+    top: 10em;
+    left: 98em;
+    background-color: #9393ffcb;
+    padding: 1em .5em;
+    border-radius: 0 0 10px 10px;
+    box-shadow: -2px 3px 7px rgb(68, 67, 67);
+}
+
+.socials img {
+    width: 25px;
+    height: 25px;
+    margin: 5px 0;
+    transition: transform 1s ease-in-out;
+}
+
+.socials img:hover {
+    transform: scale(1.3);
 }
 
 .testimonial img {
@@ -231,7 +252,11 @@ button.sign.Up {
 }
 
 .subscribe button {
-    margin: 2.2em 0 0 0;
+    margin: 1.65em 0 0 0;
+}
+
+.subscribe {
+    animation: pulse 3s infinite;
 }
 
 .subscribe .email {
@@ -274,11 +299,21 @@ footer a {
 
 /* Small screens */
 @media (max-width: 576px) {
+
     footer h2,
     footer p,
     footer ul,
     footer h5 {
         text-align: center;
+    }
+
+    footer p {
+        padding: 0 6em;
+    }
+
+    .subscribe .email {
+        width: 52dvw;
+        margin-right: 1em;
     }
 }
 
@@ -289,3 +324,25 @@ footer a {
         max-width: 33.33%;
     }
 }
+
+/* Animations */
+
+.subscribe {
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.015);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
