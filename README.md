@@ -2,4 +2,4 @@
 
 This project is a template for startup business intended to be sold. 
 
-url (https://audihazael.github.io/Landing-Page-for-Startups/)
+url (https://master--hazael-landing-page-template.netlify.app/)
